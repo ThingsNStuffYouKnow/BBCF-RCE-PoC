@@ -1,3 +1,7 @@
+# Update 7/19/2022
+The vulnerability has been fixed by Arc System Works with an emergency patch in Ver2103.\
+The update includes a fix for the vulnerability itself, as well as enabling ASLR and stack canaries on the main executable.
+
 # Introduction
 This is a proof-of-concept to show how a stack-based buffer overflow vulnerability can be exploited for remote code execution in the Steam version of BlazBlue: Central Fiction (Ver2102) (game by Arc System Works/Arc Sys).\
 I've decided on public disclosure to make sure that Arc Sys fixes this sooner than later, knowing their history of sitting on known reported problems for too long and never fixing them in some cases.\
